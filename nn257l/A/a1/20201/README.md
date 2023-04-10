@@ -1,3 +1,10 @@
-# PELAKSANAAN PENDIDIKAN
+# 2020/2021 Ganjil
 
-Melaksanakan perkuliahan/tutorial dan membimbing, menguji serta menyelenggarakan pendidikan di Laboratorium, Praktik Keguruan Bengkel/Studio/Kebun pada Fakultas/Sekolah Tinggi/Akademi/Politeknik sendiri, pada fakultas lain dalam lingkungan Universitas/lnstitut sendiri, maupun di luar perguruan tinggi sendiri secara melembaga paling banyak 12 sks per semester
+Mengajar di Mata Kuiah Sistem Informasi Geografis
+3 Kelas x 3 SKS = 9
+
+Total SKS = 9 SKS
+
+# Dokumen Bukti
+
+1. [Kelas A B C Sistem Informasi Geografis](gis.pdf)
