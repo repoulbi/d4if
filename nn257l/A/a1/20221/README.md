@@ -10,3 +10,8 @@ Untuk 2 SKS Kedua :
 0 x 0.5(sks/semester) = 0 SKS
 
 Total SKS = 6 SKS
+
+# Dokumen Bukti
+
+1. [Sistem Informasi Geografis A](gis3a.pdf)
+2. [Sistem Informasi Geografis B](gis3b.pdf)
