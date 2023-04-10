@@ -1,5 +1,7 @@
-# silahkan anda ketik judul
+# Rolly Maulana Awangga
 
-## isi 
+Repositori Rolly Maulana Awangga, S.T., M.T.
+
+## Per bidang
 
 [ini merupakan panduan repo ulbi](nn257lpanduan.docx)

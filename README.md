@@ -1,1 +1,2 @@
-# d4if
+# Sarjana Terapam Teknik Informatika
+
