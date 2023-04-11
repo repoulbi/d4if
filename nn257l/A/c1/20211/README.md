@@ -3,3 +3,7 @@
 Membimbing Mahasiswa Kuliah Kerja Nyata, Pratek Kerja Nyata, Praktek Kerja Lapangan
 
 Tgl SK : 16 Des 2021
+
+
+## Bukti Dokumen
+1. [SK](i1.pdf)
