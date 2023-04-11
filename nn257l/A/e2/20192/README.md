@@ -1,5 +1,6 @@
-# Membimbing & Ikut Membimbing Dalam Menghasilkan Disertasi, Thesis, Skripsi & Laporan Akhir Studi
-Pembimbing Pendamping Skripsi
+# Bertugas sebagai penguji pada ujian akhir	
+Anggota penguji	
+Dokumen Bukti :
 
 Dokumen Bukti :
 
