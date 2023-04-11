@@ -1,5 +1,7 @@
 # PELAKSANAAN PENDIDIKAN
 
+Tanggal SK : 26 Oktober 2021
+
 Mengajar di Mata Kuiah Kecerdasan Buatan
 2 Kelas x 3 SKS = 6
 

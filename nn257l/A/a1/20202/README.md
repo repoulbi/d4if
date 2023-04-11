@@ -1,5 +1,7 @@
 # 2020/2021 Genap
 
+Tanggal SK : 27 Oktober 2020
+
 Mengajar di Mata Kuliah Kecerdasan Buatan
 2 Kelas x 3 SKS = 6 SKS
 

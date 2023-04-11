@@ -1,5 +1,7 @@
 # PELAKSANAAN PENDIDIKAN
 
+Tanggal SK : 7 Oktober 2019
+
 Mengajar di Mata Kuiah Sistem Inforamsi Geografis
 3 Kelas x 3 SKS = 9
 
@@ -18,3 +20,4 @@ Total SKS = 12 SKS
 
 1. [Pemrograman 2](pemrograman2.pdf)
 2. [Sistem Informasi Geografis](sig.pdf)
+

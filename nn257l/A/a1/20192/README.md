@@ -1,5 +1,7 @@
 # PELAKSANAAN PENDIDIKAN 2019/2020 Genap
 
+Tanggal SK : 7 Februari 2020
+
 Mengajar di Mata Kuliah Kecerdasan Buatan
 3 Kelas x 3 SKS = 9
 

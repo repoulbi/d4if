@@ -1,5 +1,5 @@
 # 2022/2023 Ganjil
-
+Tanggal SK : 19 September 2022
 Mengajar di Mata Kuiah Sistem Informasi Geografis
 2 Kelas x 3 SKS = 6
 
