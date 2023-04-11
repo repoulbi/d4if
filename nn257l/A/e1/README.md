@@ -1,1 +1,2 @@
-Membimbing mahasiswa kuliah kerja nyata, pratek kerja nyata, praktek kerja lapangan
+# Bertugas sebagai penguji pada ujian akhir	
+Ketua penguji	
