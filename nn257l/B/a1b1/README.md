@@ -11,4 +11,4 @@ Diterbitkan jurnal Internasional
 
 1. [Revisi dari Jurnal](gurilemrevisi.pdf)
 2. [Cover Jurnal]()
-3. [Isi Jurnal]()
+3. [Isi Jurnal](https://emitter.pens.ac.id/index.php/emitter/article/view/325)
