@@ -1,1 +1,0 @@
-Membimbing mahasiswa kuliah kerja nyata, pratek kerja nyata, praktek kerja lapangan
