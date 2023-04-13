@@ -1,2 +1,2 @@
-# Sarjana Terapam Teknik Informatika
+# Sarjana Terapan Teknik Informatika
 
