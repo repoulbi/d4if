@@ -13,12 +13,10 @@ export function isitabel(jsonParse){
     console.log(jsonParse)
     jsonParse.forEach(element => {
         list = templatetable.replace("#name#", element.name);
-        if (element.type === "file"){
-            list = list.replace("#download#", `onclick="window.open('${element.download_url}')`);
-        } else{
-            
-        }
-
+        if (element.type === "dir") {
+            list += `<a href="#" onclick="showDirectoryContent('${element.url}')">Lihat Konten</a>`;
+          }
+          
        addInner("userlist" ,list);
     });
 }
