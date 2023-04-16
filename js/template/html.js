@@ -7,9 +7,7 @@ export const templatetable = `
           <div class="ml-3">
             <p class="text-sm font-medium text-gray-900">#name#</p>
             <p class="text-sm text-gray-500">
-            <a href="#download#">
-            <button class="rounded bg-indigo-500 px-2 py-1 text-xs font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500" type="button">Buka</button>
-          </a>
+           
           
             </p>
 
