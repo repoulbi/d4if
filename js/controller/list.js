@@ -12,14 +12,19 @@ export function isitabel(jsonParse){
     let list = '';
     console.log(jsonParse)
     jsonParse.forEach(element => {
-        list = templatetable.replace("#name#", element.name);
-        if (element.type === "file"){
-            list = list.replace("#download#", `onclick="window.open('${element.download_url}')`);
-        } else{
-            
-        }
-
-       addInner("userlist" ,list);
+      list = templatetable.replace("#name#", element.name);
+      if (element.type === "file"){
+        if (element.download_url !== null) {
+          list = list.replace("#download#", `onclick="window.open('${element.download_url}')`);
+        } else {
+          list = list.replace("#download#", '');
+          getFolder(element.path); }
+      } else {
+        // jika bukan file, tampilkan subfolder
+        list = list.replace("#download#", '');
+        getFolder(element.path);}
+  
+      addInner("userlist" ,list);
     });
-}
-
+  }
+  
