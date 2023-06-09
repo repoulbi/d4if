@@ -9,5 +9,12 @@ import { apidir } from "./config/url.js";
 //     request.send(null)
 //     return JSON.parse(request.responseText);
 // }
+export function getFolder(path){
+    get(apidir+path, tablelist ) 
+}
 
-get(apidir, tablelist )
+getFolder("");
+
+export function showDirectoryContent(url) {
+   
+  }
