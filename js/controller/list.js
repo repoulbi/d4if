@@ -8,16 +8,32 @@ export function tablelist(result){
 }
 
 
-export function isitabel(jsonParse){
-    let list = '';
-    console.log(jsonParse)
-    jsonParse.forEach(element => {
-        list = templatetable.replace("#name#", element.name);
-        if (element.type === "dir") {
-            list += `<a href="#" onclick="showDirectoryContent('${element.url}')">Lihat Konten</a>`;
-          }
+// export function isitabel(jsonParse){
+//     let list = '';
+//     console.log(jsonParse)
+//     jsonParse.forEach(element => {
+//         list = templatetable.replace("#name#", element.name);
+//         if (element.type === "dir") {
+//             list += `<a href="#" onclick="showDirectoryContent('${element.url}')">Lihat Konten</a>`;
+//           }
           
-       addInner("userlist" ,list);
-    });
-}
+//        addInner("userlist" ,list);
+//     });
+// }
 
+export function tablelist(result) {
+    isitabel(result);
+  }
+  
+  export function isitabel(jsonParse) {
+    let list = '';
+    console.log(jsonParse);
+    jsonParse.forEach(element => {
+      list = templatetable.replace("#name#", element.name);
+      if (element.type === "dir") {
+        list += `<a href="${element.url}" target="_blank">Lihat Konten</a>`;
+      }
+      addInner("userlist", list);
+    });
+  }
+  
