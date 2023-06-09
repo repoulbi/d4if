@@ -1,7 +1,7 @@
 import { addInner } from "https://jscroot.github.io/element/croot.js";
 import { templatetable } from "../template/html.js";
 import { showDirectoryContent } from "./croot.js";
-import { url } from "./config/url.js";
+import { getFolder } from "./onchange.js";
 
 export function tablelist(result) {
   isitabel(result);
@@ -22,6 +22,7 @@ export function showDirectoryContent(url) {
     console.log(url);
 
 }
+getFolder("path/ke/folder");
 
   
 // export function isitabel(jsonParse){
