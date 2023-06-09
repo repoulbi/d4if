@@ -1,5 +1,7 @@
 import { addInner } from "https://jscroot.github.io/element/croot.js";
 import { templatetable } from "../template/html.js";
+import { showDirectoryContent } from "./croot.js";
+import { url } from "./config/url.js";
 
 export function tablelist(result) {
   isitabel(result);
@@ -15,6 +17,10 @@ export function isitabel(jsonParse) {
     }
     addInner("userlist", list);
   });
+}
+export function showDirectoryContent(url) {
+    console.log(url);
+
 }
 
   
