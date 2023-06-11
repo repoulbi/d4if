@@ -19,14 +19,17 @@ async function getRepositoryContents() {
     const excludedFiles = ["LICENSE", "README.md", "src", "vendors", "file-manager.html", ".gitignore", "index.html", "all_prodi_repo.html", "shuffle-for-tailwind.png", "robots.txt"];
   
     for (const item of contents) {
-      if (item.type === "dir" && !excludedFolders.includes(item.name)) {
-        const row = document.createElement("tr");
-        const fileNameCell = document.createElement("td");
-        const lastModifiedCell = document.createElement("td");
-        const actionCell = document.createElement("td");
+        if (item.type === "dir" && !excludedFolders.includes(item.name)) {
+          const row = document.createElement("tr");
+          const fileNameCell = document.createElement("td");
+          const lastModifiedCell = document.createElement("td");
+          const lastVisitCell = document.createElement("td"); // Tambahkan elemen td baru untuk menampilkan tanggal terakhir kunjungan
+          const actionCell = document.createElement("td");;
   
         fileNameCell.classList.add("px-4", "py-3", "font-medium");
         lastModifiedCell.classList.add("px-4", "py-3", "font-medium", "hidden", "md:table-cell");
+    lastVisitCell.classList.add("px-4", "py-3", "font-medium", "hidden", "md:table-cell"); // Tambahkan kelas CSS yang sesuai untuk mengatur tampilan sel
+
         actionCell.classList.add("px-4", "py-3", "font-medium", "text-center");
   
         const folderIconSpan = document.createElement("span");
@@ -46,7 +49,6 @@ async function getRepositoryContents() {
         folderIconSpan.appendChild(folderIconSvg);
         fileNameCell.appendChild(folderIconSpan);
         fileNameCell.appendChild(document.createTextNode(item.name));
-        lastModifiedCell.textContent = formatDate(item.last_modified);
   
         const button = document.createElement("a");
         button.classList.add("py-2", "px-4", "mb-3", "block", "lg:inline-block", "text-center", "rounded", "leading-5", "text-gray-100", "bg-indigo-500", "border", "border-indigo-500", "hover:text-white", "hover:bg-indigo-600", "hover:ring-0", "hover:border-indigo-600", "focus:bg-indigo-600", "focus:border-indigo-600", "focus:outline-none", "focus:ring-0");
@@ -63,18 +65,26 @@ async function getRepositoryContents() {
         buttonIcon.classList.add("inline-block", "ltr:ml-1", "rtl:mr-1", "bi", "bi-plus-lg");
         buttonIcon.setAttribute("viewBox", "0 0 16 16");
   
-        
         button.appendChild(buttonText);
   
         button.addEventListener("click", function() {
           showDirectoryContent(item.name);
+          saveLastVisitDate();
         });
   
         actionCell.appendChild(button);
   
         row.appendChild(fileNameCell);
+        
         row.appendChild(lastModifiedCell);
+        row.appendChild(lastVisitCell); // Tambahkan sel untuk menampilkan tanggal terakhir kunjungan
+
         row.appendChild(actionCell);
+  
+        const lastVisitDate = getLastVisitDate();
+        if (lastVisitDate) {
+          lastVisitCell.textContent = "Terakhir dikunjungi pada: " + lastVisitDate.toLocaleString();
+        }
   
         userlist.appendChild(row);
       }
@@ -86,16 +96,29 @@ async function getRepositoryContents() {
     window.location.href = targetUrl;
   }
   
-  function formatDate(dateString) {
-    const options = { year: "numeric", month: "long", day: "numeric" };
-    const date = new Date(dateString);
-    return date.toLocaleDateString(undefined, options);
+  function saveLastVisitDate() {
+    const currentDate = new Date().toISOString();
+    localStorage.setItem('lastVisitDate', currentDate);
+  }
+  
+  function getLastVisitDate() {
+    const lastVisitDate = localStorage.getItem('lastVisitDate');
+    if (lastVisitDate) {
+      return new Date(lastVisitDate);
+    }
+    return null;
   }
   
   getRepositoryContents()
     .then(data => {
       console.log("Data:", data);
       renderRepositoryContents(data);
+  
+      const lastVisitDate = getLastVisitDate();
+      if (lastVisitDate) {
+        const lastVisitElement = document.getElementById("lastVisit");
+        lastVisitElement.textContent = "Terakhir dikunjungi pada: " + lastVisitDate.toLocaleString();
+      }
     })
     .catch(error => {
       console.log("Error:", error);
