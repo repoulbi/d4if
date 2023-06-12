@@ -71,7 +71,7 @@ async function getRepositoryContents() {
           lastVisitCell.textContent = "Terakhir dikunjungi pada: " + formattedDate;
           lastVisitCell.classList.remove("hidden");
         } else {
-          lastVisitCell.textContent = "Belum ada kunjungan hari ini";
+          lastVisitCell.textContent = "Tidak Terdapat kunjungan hari ini";
           lastVisitCell.classList.remove("hidden");
         }
   
