@@ -17,10 +17,12 @@ https://repo.ulbi.ac.id/d4if/nn257l/B/a1b1/gurilem/similarity/
 URL Dokumen Bukti Korespondensi (Wajib 
 d4if | 
 http://repo.ulbi.ac.id/d4if/ 
+
 2. MILA: Low-cost BCI framework for acquiring EEG data with IoT;TELKOMNIKA (Telecommunication Computing Electronics and Control) 18 (2), 846-852 <br>
 URL Dokumen Cek Similarity atau Originality: https://repo.ulbi.ac.id/d4if/nn257l/B/a1b1/mila/similarity/  <br>
 URL Dokumen Bukti Korespondensi (Wajib): <br>
-https://repo.ulbi.ac.id/d4if/nn257l/B/a1b1/gurilem/korespondensi/ 
+https://repo.ulbi.ac.id/d4if/nn257l/B/a1b1/gurilem/korespondensi/  
+
 3. "Mapping log data activity using heuristic miner algorithm in manufacture and logistics company
 SF Pane, RM Awan, MAH Siregar, D Majesty
 Telkomnika (Telecommunication Computing Electronics and Control) 19 (3), 781-791" <br>
