@@ -9,14 +9,12 @@ Repositori Rolly Maulana Awangga, S.T., M.T.
 
 
 ## yang blum lengkap
-1. GURILEM: A Novel Design of Customer Rating Model using K-Means and RFM
-<br>
+1. GURILEM: A Novel Design of Customer Rating Model using K-Means and RFM <br>
 URL Dokumen Cek Similarity atau Originality : 
 https://repo.ulbi.ac.id/d4if/nn257l/B/a1b1/gurilem/similarity/ 
 <br>
 URL Dokumen Bukti Korespondensi (Wajib 
-d4if | 
-http://repo.ulbi.ac.id/d4if/ 
+https://repo.ulbi.ac.id/d4if/nn257l/B/a1b1/gurilem/korespondensi/ 
 
 2. MILA: Low-cost BCI framework for acquiring EEG data with IoT;TELKOMNIKA (Telecommunication Computing Electronics and Control) 18 (2), 846-852 <br>
 URL Dokumen Cek Similarity atau Originality: https://repo.ulbi.ac.id/d4if/nn257l/B/a1b1/mila/similarity/  <br>
