@@ -8,3 +8,7 @@
 
 ## Revision
 ![image](https://github.com/repoulbi/d4if/assets/11188109/7529698a-bbd3-49d7-887c-d961fac0f627)
+
+## Proof Reading
+![image](https://github.com/repoulbi/d4if/assets/11188109/5d2d3601-5da5-4127-85c3-09316490a17c)
+
