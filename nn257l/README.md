@@ -37,12 +37,14 @@ https://repo.ulbi.ac.id/d4if/nn257l/B/a1c1a/entropy/korespondensi/
 
 8. A Hybrid CNN-LSTM Model With Word-Emoji Embedding For Improving The Twitter Sentiment Analysis on Indonesia's PPKM Policy <br>
 URL Dokumen Cek Similarity atau Originality: <br>
+[Dokumen Similarity](http://repo.ulbi.ac.id/d4if/nn257l/B/a1c1a/hybridcnn/similarity/AHybridCNN-LSTM.pdf) <br>
  https://repo.ulbi.ac.id/d4if/nn257l/B/a1c1a/hybridcnn/similarity/ <br>
 URL Dokumen Bukti Korespondensi (Wajib): <br>
 https://repo.ulbi.ac.id/d4if/nn257l/B/a1c1a/hybridcnn/korespondensi/ 
 
 9. Non-Academic Factors Analysis Impacting Students’ Online Learning During the COVID-19 Pandemic in Universitas Logistic and Bisnis Internasional <br>
 URL Dokumen Cek Similarity atau Originality: <br>
+[Dokumen Similarity](http://repo.ulbi.ac.id/d4if/nn257l/B/a1c1a/nonacad/similarity/Non Academic Factor.pdf) <br>
 http://repo.ulbi.ac.id/d4if/nn257l/B/a1c1a/nonacad/similarity   <br>
 URL Dokumen Bukti Korespondensi (Wajib):  <br>
 http://repo.ulbi.ac.id/d4if/nn257l/B/a1c1a/nonacad/korespondensi 
