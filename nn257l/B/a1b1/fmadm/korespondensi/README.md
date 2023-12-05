@@ -1,5 +1,7 @@
 # Korespondensi : Collaboration FMADM And K-Means Clustering To Determine The Activity Proposal In Operational Management Activity
 
+[Link Artikel](https://emitter2.pens.ac.id/ojs/index.php/emitter/article/view/317)  
+
 ![image](https://github.com/repoulbi/d4if/assets/11188109/93e213b4-008a-4f4a-966d-0fe0853b61a5)  
 
 ![image](https://github.com/repoulbi/d4if/assets/11188109/c29a7ebe-2e0b-444a-b27b-424d1624e43d)  
